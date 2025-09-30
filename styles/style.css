@@ -39,8 +39,8 @@
 }
 
 .header {
-  margin-bottom: 98px;
-  padding-top: 100px;
+  margin-block-end: 98px;
+  padding-block-start: 100px;
 }
 
 .header__wrapper {
@@ -87,9 +87,9 @@
 }
 
 .card__title {
-  padding-top: 5px;
-  padding-bottom: 6px;
-  padding-left: 10px;
+  padding-block-start: 5px;
+  padding-block-end: 6px;
+  padding-inline-start: 10px;
   font-size: var(--text-small);
   font-variation-settings: var(--text-variative-bold);
 }
@@ -102,6 +102,8 @@
   width: 100%;
   outline: var(--border-width) solid var(--accent-color);
   aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: center;
 }
 
 .card__content {
@@ -150,8 +152,8 @@
 }
 
 .like-icon {
-  width: 39px;
-  height: 36px;
+  inline-size: 39px;
+  block-size: 36px;
 }
 
 .main-body,
@@ -178,8 +180,8 @@
 }
 
 .card__like-button {
-  width: 130px;
-  height: 38px;
+  inline-size: 130px;
+  block-size: 38px;
   border: var(--border-width) solid var(--accent-color);
 }
 
@@ -210,8 +212,8 @@
 }
 
 .floppy-disk_small {
-  width: 21px;
-  height: 21px;
+  inline-size: 21px;
+  block-size: 21px;
   fill: var(--main-color);
   mix-blend-mode: difference;
 }
@@ -236,7 +238,7 @@ dialog::backdrop {
 }
 
 .dialog__ok-button {
-  height: 38px;
+  block-size: 38px;
 }
 
 .dialog__text {
@@ -252,8 +254,8 @@ dialog::backdrop {
 
 .floppy-disk_big {
   flex-shrink: 0;
-  width: 29px;
-  height: 29px;
+  inline-size: 29px;
+  block-size: 29px;
 }
 
 /* HOVER FOCUS ACTIVE */
@@ -375,13 +377,13 @@ dialog::backdrop {
   }
 
   .card__title {
-    padding-top: 5px;
-    padding-left: 5px;
+    padding-block-start: 5px;
+    padding-inline-start: 5px;
     line-height: 120%;
   }
 
   .card__image {
-    height: 371px;
+    block-size: 371px;
   }
 
   .card__content {
