@@ -1,1 +1,40 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+
+  /* цвета */
+  --main-color: white;
+  --accent-color: black;
+
+  /* сердце */
+  --contour-color: black;
+  --animation-fill-color: #FF0000;
+  
+  /* шрифты */
+  --main-font: 'Inter-Variable', sans-serif;
+  --accent-font: 'PressStart2P', sans-serif;
+
+  /* толщина вариативного шрифта */
+  --text-variative-normal: 'wght' 410;
+  --text-variative-bold: 'wght' 715;
+
+  /* толщина шрифта */
+  --text-normal: 400;
+
+  /* размер шрифта */
+  --text-extra-small: 14px;
+  --text-small: 18px;
+  --text-medium: 23px;
+  --text-large: 49px;
+  --text-extra-large: 65px;
+
+  /* размеры элементов */
+  --block-width: clamp(23.438rem, 16.285rem + 38.516vw, 43.75rem);
+  --header-height: clamp(3rem, 2rem + 3vw, 5rem);
+  --border-width: 2px;
+
+  /* тени */
+  --shadow-color: rgb(255 255 255 / 0.5);
+
+  /* background */
+  
+}
