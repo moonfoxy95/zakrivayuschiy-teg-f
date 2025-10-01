@@ -390,4 +390,8 @@
     inline-size: var(--floppy-disk-medium);
     block-size: var(--floppy-disk-medium);
   }
+
+  .dialog[open] {
+    margin-inline: 17px;
+  }
 }
